@@ -14,7 +14,7 @@ const Navbar = () => {
 
           <div className="flex items-center cursor-pointer" onClick={handleNavigation}>
             <h1 className="text-2xl font-bold text-white tracking-wide">
-              Shop<span className="text-emerald-400">Hub</span>
+              Axios<span className="text-emerald-400">Hub</span>
             </h1>
           </div>
 

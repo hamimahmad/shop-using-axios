@@ -24,7 +24,7 @@ const Shop = () => {
   if (loading) {
     return (
       <div className="flex justify-center items-center h-screen">
-        <div className="text-2xl text-gray-600">Loading...</div>
+        <div className="text-5xl text-gray-600">Loading...</div>
       </div>
     );
   }
