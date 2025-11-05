@@ -33,14 +33,6 @@ const ProductDetails = () => {
     );
   }
 
-  if (!product) {
-    return (
-      <div className="flex justify-center items-center h-screen">
-        <div className="text-2xl text-gray-600">Product not found</div>
-      </div>
-    );
-  }
-
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <button
